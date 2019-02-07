@@ -19,7 +19,8 @@ module.exports = {
         "es6": true,
         "browser": true,
         "jasmine": true,
-        "commonjs": true
+        "commonjs": true,
+        "node": true
     },
     "globals": {
         "adapt": false,
