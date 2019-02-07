@@ -37,7 +37,9 @@ mkdirp(outputDir, (err) => {
             throw new Error(error);
         }
 
+        // eslint-disable-next-line no-console
         console.log(stdout);
+        // eslint-disable-next-line no-console
         console.log(stderr);
     });
 });
